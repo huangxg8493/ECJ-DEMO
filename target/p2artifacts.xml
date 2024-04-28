@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.compiler.batch' version='3.38.0.v20240428-0054'>
+    <properties size='10'>
+      <property name='artifact.size' value='3178664'/>
+      <property name='download.size' value='3178664'/>
+      <property name='download.checksum.sha-512' value='131e90d77dee4ed26d40e424119a30ca8b627aadb454e981b7e5cd54afbe3a5cf162bba5bcc0121ec5689b7f4be6ba1d325d49179b463d7f90e68683d06566ee'/>
+      <property name='download.checksum.sha-1' value='e8ab7bdc60dccf31427df57fb45a534cecd0e788'/>
+      <property name='download.checksum.sha-256' value='3195c46f9569c0af56986afd03ddcd3f85147c85ab90e86fe0dae9b124d81ff4'/>
+      <property name='maven-groupId' value='org.eclipse.jdt'/>
+      <property name='maven-artifactId' value='org.eclipse.jdt.core.compiler.batch'/>
+      <property name='maven-version' value='3.38.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+      <property name='download.stats' value='org.eclipse.jdt.core.compiler.batch/3.38.0.v20240428-0054'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.compiler.batch.source' version='3.38.0.v20240428-0054'>
+    <properties size='11'>
+      <property name='artifact.size' value='2279599'/>
+      <property name='download.size' value='2279599'/>
+      <property name='download.checksum.sha-512' value='327378c5580af8648cc74b4c12ed36c97068003830a343187c351ebebf466059a9fb4c2284f77bad1c0efcb0e145564238f258d485df909e8f9694903ee00def'/>
+      <property name='download.checksum.sha-1' value='aba369fd3edb971aaf1d387d5ed82d351b8f0ea1'/>
+      <property name='download.checksum.sha-256' value='012ed766c3f0786419524f4a545d8829d9bdb60533fad4c9665499c1e2c9cc35'/>
+      <property name='maven-groupId' value='org.eclipse.jdt'/>
+      <property name='maven-artifactId' value='org.eclipse.jdt.core.compiler.batch'/>
+      <property name='maven-version' value='3.38.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+      <property name='download.stats' value='org.eclipse.jdt.core.compiler.batch.source/3.38.0.v20240428-0054'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,86 @@
+Manifest-Version: 1.0
+Main-Class: org.eclipse.jdt.internal.compiler.batch.Main
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Compiler for Java(TM)
+Bundle-SymbolicName: org.eclipse.jdt.core.compiler.batch
+Bundle-Version: 3.38.0.v20240428-0054
+Bundle-ClassPath: .
+Bundle-Vendor: Eclipse.org
+Automatic-Module-Name: org.eclipse.jdt.core.compiler.batch
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: META-INF.services,org.eclipse.jdt.core.compiler,org.ecli
+ pse.jdt.core.compiler.batch,org.eclipse.jdt.internal.antadapter;x-frien
+ ds:="org.eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclips
+ e.jdt.core.tests.compiler, org.eclipse.jdt.core.tests.builder, org.ecli
+ pse.jdt.core.tests.performance, org.eclipse.jdt.ui.tests",org.eclipse.j
+ dt.internal.compiler;x-friends:="org.eclipse.jdt.core, org.eclipse.jdt.
+ core.tests.model, org.eclipse.jdt.core.tests.compiler, org.eclipse.jdt.
+ core.tests.builder, org.eclipse.jdt.core.tests.performance, org.eclipse
+ .jdt.ui.tests, org.eclipse.jdt.apt.pluggable.core",org.eclipse.jdt.inte
+ rnal.compiler.apt.dispatch;x-friends:="org.eclipse.jdt.apt.pluggable.co
+ re,org.eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclipse.
+ jdt.core.tests.compiler, org.eclipse.jdt.core.tests.builder, org.eclips
+ e.jdt.core.tests.performance, org.eclipse.jdt.ui.tests",org.eclipse.jdt
+ .internal.compiler.apt.model;x-friends:="org.eclipse.jdt.apt.pluggable.
+ core,org.eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclips
+ e.jdt.core.tests.compiler, org.eclipse.jdt.core.tests.builder, org.ecli
+ pse.jdt.core.tests.performance, org.eclipse.jdt.ui.tests",org.eclipse.j
+ dt.internal.compiler.apt.util;x-friends:="org.eclipse.jdt.apt.pluggable
+ .core,org.eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclip
+ se.jdt.core.tests.compiler, org.eclipse.jdt.core.tests.builder, org.ecl
+ ipse.jdt.core.tests.performance, org.eclipse.jdt.ui.tests",org.eclipse.
+ jdt.internal.compiler.ast;x-friends:="org.eclipse.jdt.core, org.eclipse
+ .jdt.core.tests.model, org.eclipse.jdt.core.tests.compiler, org.eclipse
+ .jdt.core.tests.builder, org.eclipse.jdt.core.tests.performance, org.ec
+ lipse.jdt.ui.tests, org.eclipse.jdt.apt.pluggable.core",org.eclipse.jdt
+ .internal.compiler.batch;x-friends:="org.eclipse.jdt.core, org.eclipse.
+ jdt.core.tests.model, org.eclipse.jdt.core.tests.compiler, org.eclipse.
+ jdt.core.tests.builder, org.eclipse.jdt.core.tests.performance, org.ecl
+ ipse.jdt.ui.tests",org.eclipse.jdt.internal.compiler.classfmt;x-friends
+ :="org.eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclipse.
+ jdt.core.tests.compiler, org.eclipse.jdt.core.tests.builder, org.eclips
+ e.jdt.core.tests.performance, org.eclipse.jdt.ui.tests, org.eclipse.jdt
+ .apt.pluggable.core",org.eclipse.jdt.internal.compiler.codegen;x-friend
+ s:="org.eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclipse
+ .jdt.core.tests.compiler, org.eclipse.jdt.core.tests.builder, org.eclip
+ se.jdt.core.tests.performance, org.eclipse.jdt.ui.tests",org.eclipse.jd
+ t.internal.compiler.env;x-friends:="org.eclipse.jdt.core, org.eclipse.j
+ dt.core.tests.model, org.eclipse.jdt.core.tests.compiler, org.eclipse.j
+ dt.core.tests.builder, org.eclipse.jdt.core.tests.performance, org.ecli
+ pse.jdt.ui.tests, org.eclipse.jdt.apt.pluggable.core",org.eclipse.jdt.i
+ nternal.compiler.flow;x-friends:="org.eclipse.jdt.core, org.eclipse.jdt
+ .core.tests.model, org.eclipse.jdt.core.tests.compiler, org.eclipse.jdt
+ .core.tests.builder, org.eclipse.jdt.core.tests.performance, org.eclips
+ e.jdt.ui.tests",org.eclipse.jdt.internal.compiler.impl;x-friends:="org.
+ eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclipse.jdt.cor
+ e.tests.compiler, org.eclipse.jdt.core.tests.builder, org.eclipse.jdt.c
+ ore.tests.performance, org.eclipse.jdt.ui.tests, org.eclipse.jdt.apt.pl
+ uggable.core",org.eclipse.jdt.internal.compiler.lookup;x-friends:="org.
+ eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclipse.jdt.cor
+ e.tests.compiler, org.eclipse.jdt.core.tests.builder, org.eclipse.jdt.c
+ ore.tests.performance, org.eclipse.jdt.ui.tests, org.eclipse.jdt.apt.pl
+ uggable.core",org.eclipse.jdt.internal.compiler.parser;x-friends:="org.
+ eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclipse.jdt.cor
+ e.tests.compiler, org.eclipse.jdt.core.tests.builder, org.eclipse.jdt.c
+ ore.tests.performance, org.eclipse.jdt.ui.tests",org.eclipse.jdt.intern
+ al.compiler.parser.diagnose;x-friends:="org.eclipse.jdt.core, org.eclip
+ se.jdt.core.tests.model, org.eclipse.jdt.core.tests.compiler, org.eclip
+ se.jdt.core.tests.builder, org.eclipse.jdt.core.tests.performance, org.
+ eclipse.jdt.ui.tests",org.eclipse.jdt.internal.compiler.problem;x-frien
+ ds:="org.eclipse.jdt.core, org.eclipse.jdt.core.tests.model, org.eclips
+ e.jdt.core.tests.compiler, org.eclipse.jdt.core.tests.builder, org.ecli
+ pse.jdt.core.tests.performance, org.eclipse.jdt.ui.tests, org.eclipse.j
+ dt.apt.pluggable.core",org.eclipse.jdt.internal.compiler.tool;x-friends
+ :="org.eclipse.jdt.compiler.tool.tests,org.eclipse.jdt.core, org.eclips
+ e.jdt.core.tests.model, org.eclipse.jdt.core.tests.compiler, org.eclips
+ e.jdt.core.tests.builder, org.eclipse.jdt.core.tests.performance, org.e
+ clipse.jdt.ui.tests",org.eclipse.jdt.internal.compiler.util;x-friends:=
+ "org.eclipse.jdt.core.internal.tools,org.eclipse.jdt.core, org.eclipse.
+ jdt.core.tests.model, org.eclipse.jdt.core.tests.compiler, org.eclipse.
+ jdt.core.tests.builder, org.eclipse.jdt.core.tests.performance, org.ecl
+ ipse.jdt.ui.tests, org.eclipse.jdt.apt.core"
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-jdt/eclipse
+ .jdt.core.git;path="org.eclipse.jdt.core.compiler.batch";commitId=fb2c7
+ 6ee0f377fe93b02975ffebb8b9ac2163ccf
+
